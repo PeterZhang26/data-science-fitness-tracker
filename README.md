@@ -1,6 +1,8 @@
 # Coding a Fitness Tracker with Python
 
-Following along with Dave Ebbelaar ([link to his channel](https://www.youtube.com/@daveebbelaar)) in coding a fitness tracker with Python 
+Following along with Dave Ebbelaar ([link to his channel](https://www.youtube.com/@daveebbelaar)) in coding a fitness tracker with Python. The fitness tracker is a proof of concept that Dave Ebbelaar did during his masters in artificial intelligence, using a gyroscope sensor on the wrist. The sensor recorded the acceleration in the x, y and z planes as well as the gyrscopic angular velocity. The participants involved performed a number of exercises using a barbell. 
+
+The aim of the fitness tracker was to utilise a machine learning algorithm in order to correctly classify the exercise the participant was performing given only the accelerometer and gyroscope data.
 
 You can find the youtube playlist here [YouTube playlist](https://www.youtube.com/playlist?list=PL-Y17yukoyy0sT2hoSQxn1TdV0J7-MX4K)
 
