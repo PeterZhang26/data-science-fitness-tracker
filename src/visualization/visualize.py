@@ -167,7 +167,7 @@ for label in labels:
             .reset_index()
         )
 
-        if len(all_axis_df) > 0:
+        if len(combined_plot_df) > 0:
 
             fig, ax = plt.subplots(nrows=2, sharex=True, figsize=(20, 10))
             combined_plot_df[["acc_x", "acc_y", "acc_z"]].plot(ax=ax[0])
@@ -189,5 +189,8 @@ for label in labels:
             )
             ax[1].set_xlabel("samples")
 
-            plt.savefig(f"../../reports/figures/{label.title()} ({participant}).png")
+            plt.savefig(
+                f"../../reports/figures//{label.title()} ({participant}).png",
+                format="png",
+            )
             plt.show()
